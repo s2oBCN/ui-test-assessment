@@ -6,6 +6,7 @@ require 'rspec'
 require 'yaml'
 require 'fileutils'
 require 'pry'
+require 'rack/file'
 
 BROWSER = ENV['BROWSER']
 ENVIRONMENT_TYPE = ENV['ENVIRONMENT_TYPE']
