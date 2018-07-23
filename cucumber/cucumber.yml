@@ -1,0 +1,9 @@
+##YAML Template
+---
+default: -p chrome
+ci: -p json_report -p chrome_headles
+html_report: --format pretty --format html --out=features_report.html
+json_report: --format pretty --format json --out=report/features_report.json
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+chrome_headles: BROWSER=chrome_headles
